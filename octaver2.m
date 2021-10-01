@@ -1,6 +1,6 @@
 % Ocatve Script
-% Title                :Clasificaci�n de los n�meros 
-% Description          :Script para recordar conceptos de n�meros 
+% Title                :Clasificación de los números 
+% Description          :Script para recordar conceptos de números 
 % Author               :Patricia Zaragoza Palma
 % Date                 :20210929
 % Version              :1
@@ -12,19 +12,19 @@
 
 
 clear
-c_numeros_Naturales = '?={1, 2, 3,....n} sin n > 0';
-c_numeros_Enteros = '?={ -n..., -2, -1, 0, 1, 2,...n}';
-c_numeros_Racionales = '?= { m/n d�nde m, n ?? n ? o}';
-c_numeros_irracionales = 'I= {?n  que no puede ser expresada como ? todas las raices que no son exactas}';
-c_numeros_Reales = '?= {I, ?, ?, ?}';
+c_numeros_Naturales = 'N={1, 2, 3,....n} sin n > 0';
+c_numeros_Enteros = 'Z={ -n..., -2, -1, 0, 1, 2,...n}';
+c_numeros_Racionales = 'Q= { m/n dónde m, n ?? n ? o}';
+c_numeros_irracionales = 'I= {√n  que no puede ser expresada como Q todas las raices que no son exactas}';
+c_numeros_Reales = 'R= {I, Q, Z, N}';
 
-% Propiedades de los n�meros, sean a,b,c,d,e ??
+% Propiedades de los números, sean a,b,c,d,e ∈ℝ
 
 % Propiedades de ?(cerradura)
-p_cerradura = 'a + b ??';
-p_cerradura2 = 'ab ??' ;
-p_cerradura3 = '7 + 9 ??';
-p_cerradura4 = '?= pertenencia';
+p_cerradura = 'a + b ∈ℝ';
+p_cerradura2 = 'ab ∈ℝ' ;
+p_cerradura3 = '7 + 9 ∈N';
+p_cerradura4 = '∈= pertenencia';
 disp ("propiedad de cerradura" ) ;
 a=5;
 b=7;
@@ -87,7 +87,7 @@ a+(-a)
 p_inversoM = 'a ( 1/a ) =(1' ;
 disp("Inverso multiplicativo o reciproco" ) ;
 a=17;
-a(1/a)
+a*(1/a)
 
 % Propiedad transitiva (| enconces)
 p_transitiva = ' si a > b y b > c | a > c' ;
