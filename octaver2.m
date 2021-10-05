@@ -84,12 +84,13 @@ a=45
 a+(-a)
 
 % Inverso multiplicativo o reciproco
-p_inversoM = 'a ( 1/a ) =(1' ;
+p_inversoM = 'a ( 1/a ) = 1' ;
 disp("Inverso multiplicativo o reciproco" ) ;
 a=17;
 a*(1/a)
 
 % Propiedad transitiva (| enconces)
+disp('Propiedad transitiva ( | entonces)');
 p_transitiva = ' si a > b y b > c | a > c' ;
 p_transitiva2 = 'si a = b y b = c | a = c' ;
 a=34;
@@ -98,3 +99,17 @@ c=7;
 a>b
 b>c
 a>c
+disp('si a > b y b > c | a>c');
+disp('si a = b y b = c | a = c');
+
+%Trinomia (raiz del algebra) siempre se pueden comparar
+disp('Trinomia (raiz del algebra) siempre se pueden comparar');
+p_tricotomia = 'a > b ';
+p_tricotomia2 = 'a = b';
+p_tricotomia3 = 'a < b';
+disp('Si a=2 y b =1 Entonces a > b ');
+disp('Si a=2 y b =2 Entonces a = b');
+disp('Si a=1 y b =2 Entonces a < b');
+
+%signos de agrupacion
+s_agrupacion = '{[()]}';
